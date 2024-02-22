@@ -145,11 +145,11 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.skyline.city.svg
+          filename: static/images/metrics.plugin.skyline.city.svg
           token: NOT_NEEDED
           base: ""
           plugin_skyline: yes
-          plugin_skyline_year: 2020
+          plugin_skyline_year: 2023
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
           plugin_skyline_settings: |
@@ -164,8 +164,8 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.stargazers.worldmap.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          filename: static/images/metrics.plugin.stargazers.worldmap.svg
+          token: ${{ secrets.METRICS_SECRET }}
           base: ""
           plugin_stargazers: yes
           plugin_stargazers_charts: no
@@ -178,8 +178,8 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.calendar.full.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          filename: static/images/metrics.plugin.calendar.full.svg
+          token: ${{ secrets.METRICS_SECRET }}
           base: ""
           plugin_calendar: yes
           plugin_calendar_limit: 0
