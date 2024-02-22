@@ -25,11 +25,12 @@
 </a>
 
 <a href="https://github.com/shellywell123">
-    <img align="center" width="49%" src="./static/images/metrics.plugin.stargazers.worldmap.svg" />
-</a>
-<a href="https://github.com/shellywell123">
     <img align="center" width="49%" src="./static/images/metrics.plugin.skyline.city.svg" />
 </a>
 <a href="https://github.com/shellywell123">
     <img align="center" width="49%" src="./static/images/metrics.plugin.calendar.full.svg" />
+</a>
+
+<a href="https://github.com/shellywell123">
+    <img align="center" width="49%" src="./static/images/metrics.plugin.stargazers.worldmap.svg" />
 </a>
