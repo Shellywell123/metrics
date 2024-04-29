@@ -63,8 +63,8 @@
                             16
                         </div>
                         <div class="entry">
-                            <span class="value">2</span>
-                            <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                            <span class="value">1</span>
+                            <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             17
                         </div>
                         <div class="entry">
@@ -91,6 +91,11 @@
                             <span class="value">1</span>
                             <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             22
+                        </div>
+                        <div class="entry">
+                            <span class="value">1</span>
+                            <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            23
                         </div>
                     </div>
                 </div>
@@ -139,14 +144,19 @@
                         <h3>Language activity</h3>
                         <div class="chart-bars horizontal">
                             <div class="entry">
-                                <span class="name">Lua</span>
-                                <div class="bar" style="width: 18.119679677154927%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">23%</span>
+                                <span class="name">Shell</span>
+                                <div class="bar" style="width: 19.796167957602936%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">25%</span>
                             </div>
                             <div class="entry">
-                                <span class="name">Shell</span>
-                                <div class="bar" style="width: 14.023582823633268%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">18%</span>
+                                <span class="name">Lua</span>
+                                <div class="bar" style="width: 12.763380117640208%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">16%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">Python</span>
+                                <div class="bar" style="width: 2.744161667928484%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">3%</span>
                             </div>
                         </div>
                     </section>
